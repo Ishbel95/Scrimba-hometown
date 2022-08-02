@@ -9,7 +9,7 @@ body {
 
 
 @font-face{
-    src: url(london.full-bold.ttf);
+    src: url("/london.full-bold.ttf");
     font-family: London-bold;
 }
 
@@ -20,7 +20,7 @@ body {
 
 .hero{
     padding: 10px 20px 500px;
-   background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 80%, hsla(218, 29%, 82%, 1) 100%), url(images/london.jpg);
+   background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 80%, hsla(218, 29%, 82%, 1) 100%), url("/images/london.jpg");
     background-size: cover;
     width: 100%;
   
