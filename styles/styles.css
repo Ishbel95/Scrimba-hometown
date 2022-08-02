@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  color: #101d25;
+  font-family: "Uchen", serif;
+  background: hsla(218, 29%, 82%, 1);
+}
+
+@font-face {
+  src: url("london.full-bold.ttf");
+  font-family: London-bold;
+}
+
+@font-face {
+  src: url("london.london.ttf");
+  font-family: London;
+}
+
+.hero {
+  padding: 10px 20px 500px;
+  background-image: linear-gradient(
+      180deg,
+      hsla(0, 0%, 100%, 0) 80%,
+      hsla(218, 29%, 82%, 1) 100%
+    ),
+    url("images/london.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+.hero h1 {
+  font-family: London;
+  font-size: 5rem;
+  margin-top: 100px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+.activities-heading {
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.activities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.activities img {
+  border: solid 6px #f6edec;
+  box-shadow: 5px 5px 5px #101d25;
+  width: 50%;
+  border-radius: 10%;
+}
+
+.activities h4 {
+  font-size: 1.5rem;
+  background-color: #f6edec;
+  border-radius: 5px;
+  margin: 15px auto;
+  width: 70%;
+  padding: 5% 2%;
+}
+
+.activities p {
+  margin: 15px auto;
+  padding: 2%;
+  width: 70%;
+  font-size: 1.3rem;
+  background-color: #f6edec;
+  border-radius: 5px;
+}
