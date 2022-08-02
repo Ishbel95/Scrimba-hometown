@@ -14,7 +14,7 @@ body {
 }
 
 @font-face{
-    src: url(london.london.ttf);
+    src: url("/london.london.ttf");
     font-family: London;
 }
 
